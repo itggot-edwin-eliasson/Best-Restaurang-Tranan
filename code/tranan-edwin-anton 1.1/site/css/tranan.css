@@ -1,0 +1,40 @@
+body {
+    background-color: grey;
+    padding:0;
+    margin:0;
+}
+
+div {
+    #border: 1px solid black;
+}
+#container {
+    display: block;
+
+}
+
+header nav {
+    display: block;
+    height: 60px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    float: left;
+    margin-right: 20px;
+}
+
+header nav ul li a{
+    color: rgba(255,255,255,0.5);
+    text-decoration: none;
+}
+
+#header-text {
+    color: red;
+    text-align: center;
+}
