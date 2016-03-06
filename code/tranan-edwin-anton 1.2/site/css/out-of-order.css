@@ -1,0 +1,127 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    #border: 1px solid black;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    background-image: url("../img/metal.jpg");
+    background-position: center;
+    margin-top: -20px;
+}
+
+header nav {
+    display: block;
+    height: 60px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    float: left;
+    margin-right: 20px;
+}
+
+header nav ul li a{
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: xx-large;
+    font-family: 'Sarpanch', sans-serif;
+    font-variant: small-caps;
+}
+
+header nav ul li a:hover {
+    color: aliceblue;
+}
+
+#at {
+    color: aliceblue;
+}
+
+body {
+    background: url(../img/codsworth.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.skit {
+    padding: 100px;
+}
+
+.squares {
+    border-radius: 10px;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    /*font-family: 'Sarpanch', sans-serif;*/
+    color: white;
+    background-color: rgba(64,64,64,0.8);
+}
+
+.folder-title {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 20%;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding-left: 5px;
+    background-color: rgba(0,0,0,0.5);
+    width: 150px;
+}
+
+.fk {
+    margin-bottom: 0;
+    font-family: 'Sarpanch', sans-serif;
+    font-variant: small-caps;
+    color: white;
+}
+
+.folder {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 65%;
+    margin-left: 20%;
+    margin-right: auto;
+    margin-bottom: 15px;
+    /*font-family: 'Sarpanch', sans-serif;*/
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.Error {
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 65%;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    font-family: 'Sarpanch', sans-serif;
+    font-variant: small-caps;
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+    background-color: rgba(64,64,64,0.8);
+}
